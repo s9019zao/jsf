@@ -14,9 +14,9 @@
 				<h:outputText value="#{msg.personPinLabel}" />
 				<h:inputText id="yob" value="#{personBean.person.pin}" />
 			</h:panelGrid>
-
+			
 			<h:commandButton value="#{msg.personFormOKButton}"
-				action="#{personBean.addPerson}" />
+				action="#{personBean.showPerson}" />
 				
 			<h:panelGrid>
 				<h:messages showDetail="#{true}" showSummary="#{false}" />
